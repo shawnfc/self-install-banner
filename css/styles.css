@@ -1,0 +1,93 @@
+body {
+  color: #F4F4F4;
+}
+
+.banner-container {
+  max-width: 1280px;
+  max-height: 100px;
+  margin: 0 auto;
+  background: #1E90FF;
+}
+
+.banner-container .banner-content {
+  max-width: 90%;
+  margin: 0 auto;
+  padding-top: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.banner-container .banner-content .banner-image-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.banner-container .banner-content .banner-image {
+  max-height: 90px;
+  padding-top: 5px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.banner-container .banner-content .banner-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.banner-container .banner-content .text-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.banner-container .banner-content h1 {
+  font-family: 'Gotham Rounded', sans-serif;
+  font-size: 1.4em;
+  margin-bottom: 0;
+}
+
+.banner-container .banner-content p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2em;
+  padding-bottom: 0;
+}
+
+@media screen and (max-width: 818px) {
+  .banner-container .text-content > h1 {
+    font-size: 1em;
+    margin-bottom: 0;
+  }
+  .banner-container .text-content > p {
+    font-size: .9em;
+    padding-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .banner-container .text-content > h1 {
+    font-size: .8em;
+  }
+  .banner-container .text-content > p {
+    font-size: .75em;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
