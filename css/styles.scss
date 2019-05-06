@@ -4,9 +4,10 @@ body {
 
 .banner-container {
     max-width: 1280px;
+    min-width: 417px;
     max-height: 100px;
     margin: 0 auto;
-    background: #1E90FF;
+    background: #028399;
 
     .banner-content {
         max-width: 90%;
@@ -27,7 +28,7 @@ body {
             align-items: center;
         }
 
-        .banner-right {
+        .banner-text-wrapper {
             display: flex;
         }
 
@@ -35,22 +36,36 @@ body {
             display: flex;
             flex-direction: column;
             justify-content: center;
+            margin-top: 5px;
         }
 
         h1 {
             font-family: 'Gotham Rounded', sans-serif;
-            font-size: 1.4em;
+            font-size: 1.3em;
             margin-bottom: 0;
         }
 
         p {
             font-family: 'Open Sans', sans-serif;
-            font-size: 1.2em;
+            font-size: 1.1em;
             padding-bottom: 0;
         }
     }
 }
 
+.alt-banner {
+    margin-top: 40px;
+    color: #202020;
+
+    // h1 {
+    //     color: #009AE0;
+    //     color: #00A846;
+    // }
+
+    .banner-container {
+        background: #EBEFF0;
+    }
+}
 
 // MEDIA QUERIES
 @media screen and (max-width: 818px) {
@@ -66,8 +81,12 @@ body {
 }
 
 @media screen and (max-width: 576px) {
+    .banner-content .banner-text-wrapper .text-content {
+        margin-top: 0;
+    }
+
     .banner-container .text-content>h1 {
-        font-size: .8em;
+        font-size: .9em;
     }
 
     .banner-container .text-content>p {
