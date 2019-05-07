@@ -8,6 +8,8 @@ body {
   max-height: 100px;
   margin: 0 auto;
   background: #028399;
+  background-image: url("/images/purple-wavey-background.png");
+  background-repeat: no repeat;
 }
 
 .banner-container .banner-content {
