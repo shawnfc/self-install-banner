@@ -7,8 +7,9 @@ body {
     min-width: 417px;
     max-height: 100px;
     margin: 0 auto;
-    // background: #028399;
+    background: #028399;
     background-image: url('/images/blue-wavey-background.png');
+    background-size: cover;
     background-repeat: no repeat;
 
     .banner-content {
@@ -58,11 +59,6 @@ body {
 .alt-banner {
     margin-top: 40px;
     color: #202020;
-
-    // h1 {
-    //     color: #009AE0;
-    //     color: #00A846;
-    // }
 
     .banner-container {
         background: #EBEFF0;
